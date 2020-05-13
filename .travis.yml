@@ -1,7 +1,8 @@
-language: python
-cache: pip
-sudo: required
-python: 2.7
+---
+os: linux
+dist: xenial
+language: java
+jdk: openjdk8
 
 env:
   global:
