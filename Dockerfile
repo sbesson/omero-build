@@ -4,6 +4,10 @@
 # distribution which can then be run
 # within a number of different Docker images.
 
+# By default, building this dockerfile will use
+# the IMAGE argument below for the runtime image.
+ARG IMAGE=adoptopenjdk:11-jdk-hotspot-bionic
+
 # To install the built distribution into other runtimes
 # pass a build argument, e.g.:
 #
