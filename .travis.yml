@@ -8,6 +8,8 @@ env:
   global:
     - TMPDIR=/tmp
 
+install: true
+
 services:
 - docker
 
